@@ -1,0 +1,18 @@
+PREREQUISITES
+You will need to have a project in GitHub.
+
+You will need to have a Jenkins Server up and running.
+
+GETTING STARTED
+Installing and Running Ngrok
+Ngrok is a reverse proxy that accepts traffic on a public address, relays that traffic through to the ngrok process running on your machine and then on to the local address you specified.
+
+So head on over to Ngrok and signup for an account, using whichever method you choose. Then you should be greeted with the screen below showing how to unzip and run it.
+
+
+Now lets run ./ngrok http 8080 which will point to our Jenkins server.
+
+You will receive your proxy hostname after running that command and it should look like this:
+
+Forwarding http://xxxxx.ngrok.io -> http://localhost:8080
+Forwarding https://xxxxx.ngrok.io -> http://localhost:8080
